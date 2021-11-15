@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400&display=swap');
+/* ........... Logo and navbar............ */
+.logowork {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1F1534;
+    font-weight: 420px;
+    font-size: 20px;
+    line-height: 23px;
+}
+header {
+    height: 90vh;
+}
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+   
+}
+#home {
+    color: #1F1534;
+    font-weight: 700;
+
+}
+#doctorwho, #apps, #testimonials, #aboutus {
+    color: rgba(31, 21, 52, 1);
+    font-weight: 400;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 40px;
+}
+nav ul li:hover::after {
+    width: 100%;
+}
+.logo {
+    margin-left: 20px;
+    margin-top: -15px;
+}
+nav ul li::after {
+    margin: 8px auto;
+    display: block;
+    transition: 0.5s;
+    background: #1F1534;
+    content: " ";
+    height: 3px;
+    width: 0%;
+}
+
+/* ....Corner img.... */
+
+.corner-img {
+    margin-top: 50px;
+    width: 132px !important;
+    height: 15px;
+}
+
+ /* ....Consult and image.... */
+
+ .row {
+     display: flex;
+     justify-content: space-between;
+     align-items: center; }
+
+
+    .consult-text {
+        margin: 0 auto;
+        width: 0%;
+        margin-top: 10px;
+        display: block;
+        margin-top: -130px;
+        position: absolute;
+        left: 190px;
+        top: 430px;
+    }
+    /* virtual healthcare */
+
+    .consultnow {
+        height: 338px;
+        width: 445px;
+    }
+
+     #virtualmed {
+        color: #000;
+        font-size: 48px;
+        width: 100%;
+        font-weight: 700;
+        line-height: 56px;
+    }
+   
+     #virtualheal {
+        font-weight: 300;
+        width: 465px;
+        font-style: normal;
+        font-size: 21px;
+        color: #7D7987;
+        margin-top: 35px;
+    }
+    .btn-consult:hover {
+        background-color: #0e6ef3;
+
+    }
+
+    .btn-consult {
+        border: none;
+        width: 200px;
+        height: 60px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 55px;
+        color: #fff;
+        background:  #458FF6;
+        margin-top: 35px;
+
+    }
+    /* ....Ilustration1.... */
+
+    .cover1 {
+        width: 693px;
+        height: 598px;
+        top: 177px;
+        left: 744px;
+    }
+    .cover1 img {
+        
+        position: absolute;
+        left: 46.5%;
+        right: 10.19%;
+        
+
+    }
+
+    /* ....Services.... */
+
+     #servis {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        line-height: 56px;
+        margin-top: 100px;
+        
+    }
+    .services {
+        padding-top: 220px;
+        height: 178vh;
+
+    }
+    .services h2::after{
+        content: " ";
+        height: 2px;
+        width:56px;
+        display: block;
+        background: #000;
+        margin: 26px auto; }
+
+    #backimg {
+            background-repeat: no-repeat;
+            background-image: url(../img/Frame.jpg);
+            background-position: -50px -130px;
+            width: 100%;
+            margin-top: 100px;
+        }
+   
+    .services-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+    .pros {
+            width: 32%;
+            height: 354px;
+            padding: 39px;
+            border-radius: 20px;
+            cursor: pointer;
+            box-shadow:2px 3px 20px #E5E5E5;
+            margin-bottom: 34px;
+            transition: 0.5s;
+            background: #fff;
+
+            
+
+        }
+     .pros h3 {
+            font-size: 24px;
+            line-height: 56px;
+            margin-top: 23px;
+            font-weight: 700;
+        }
+    .pros:hover{
+            transform: translateY(-12px);
+            box-shadow: 1px 2px 7px 1px #888888; }
+
+     .pros p {
+                font-weight: 300;
+                line-height: 28px;
+                font-size: 16px;
+                margin-top: 2px;}
+
+            
+            
+            
+ .learnmore {
+                width: 200px;
+                background: #fff;
+                cursor: pointer;
+                border: 2px solid #458FF6;
+                font-weight: 700;
+                font-size: 15px;
+                height: 60px;
+                color: #458FF6;
+                border-radius: 55px;
+                margin-top: 20px;
+            }
+    .learnmore:hover {
+                background: #458FF6;
+                color: #fff;
+            }
+
+
+
+       .services > p {
+        width: 70%;
+        text-align: center;
+        font-weight: 300;
+        line-height: 30px;
+        font-size: 18px;
+        margin-bottom: 80px;
+        padding-top: 7px;
+        margin: 0 auto;
+
+                        }
+
+ 
+       /*....Leading healthcare....  */
+        
+       .leadhealth {
+           width: 80%;
+           display: block;
+           background-image: url(../img/trafalgar-illustration\ sec02\ 1\ \(1\).jpg);
+           background-repeat: no-repeat;
+           
+           margin: auto;
+           height: 70vh;
+           margin-top: 450px;
+       }
+
+       .leading-text {
+           width: 30%;
+           margin-left: auto;
+           padding-top: 50px;
+           display: block;
+           height: 388px;
+           max-width: 486px;
+       }
+       
+       #ldng-health {
+           font-size: 18px;
+           line-height: 30px;
+           font-weight: 300;
+           color: #7D7987;
+
+       }
+       #leading-header{
+           font-weight: 700;
+           font-size: 24px;
+           line-height: 56px;
+           margin-top: 23px;
+       }
+        #leading-header::after {
+            height: 2px;
+            display: block;
+            background: #000;
+            content: " ";
+            width: 56px;
+            margin: 26px 0px;
+            border-radius: 15px;
+        }
+       
+        /* ....Download our apps */
+        
+        .download {
+            background-image: url(../img/trafalgar-illustration\ sec03\ 1.jpg);
+            background-repeat: no-repeat;
+            width: 80%;
+            display: block;
+            background-position: top right;
+           
+            margin: auto;
+            height: 65vh;
+            margin-bottom: 250px;
+            margin-top: 250px;
+
+        }
+
+        .download-text {
+            width: 30%;
+            padding-top: 50px;
+            display: block;
+
+
+        }
+        #download-h3 {
+            line-height: 56px;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        #download-p {
+            font-size: 22px;
+            line-height: 30px;
+            color: #7D7987;
+            font-weight: 300;
+        
+        }
+        #download-h3::after {
+            content: " ";
+            display: block;
+            background-color: #000;
+            border-radius: 10px;
+            margin: 26px 0px;
+            width: 56px;
+            height: 2px;
+        }
+        .down-symbol {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .lrnmr {
+            margin-top: 30px;
+        }
+        /* ....Customer review.... */
+
+        .customers-review {
+            height: 502px;
+            width: 1220px;
+            margin: auto;
+            border-radius: 24px;
+            background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%); }
+
+            #customer-h2 {
+                text-align: center;
+                color: #fff;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 56px;
+                padding-top: 40px;
+
+            }
+            .customer-table {
+                display: flex;
+                height: 70%;
+                justify-content: space-around;
+                align-items: center;
+                color: #fff;
+            }
+
+            #customer-h2::after {
+                background: #fff;
+                margin: 26px auto;
+                content: " ";
+                display: block;
+                width: 56px;
+                height: 2px;
+            }
+
+            .customer-img {
+                width: 141px;
+                height: 141px;
+               
+            }
+
+            #edward {
+                font-size: 22px;
+                line-height: 48px;
+                font-weight: bold;
+            }
+            #founder {
+                line-height: 48px;
+                font-size: 18px;
+                color: rgba(255, 255, 255, 0.85);
+            }
+
+            .customer-bio {
+                width: 20%;
+            }
+            .customer-comment {
+                font-size: 19px;
+                width: 420px;
+                color: rgba(255, 255, 255, 0.9);
+                line-height: 30px;
+                height: 120px;
+
+            }
+            #image-radius  {
+                border-radius: 100px;
+            }
+            .arrow-nav {
+                position: absolute;
+              width: 336.43px;
+             height: 20px;
+              left: 633px;
+              margin-top: 30px;
+           
+            }
+
+            /* ....Check our latest article */
+
+            .our-latest-article {
+                padding-top: 220px;
+                height: 810px;
+            }
+            #article-h2 {
+                font-size: 36px;
+                line-height: 56px;
+                font-weight: 700;
+                text-align: center;
+            }
+            #article-h2::after {
+                content: " ";
+                width: 56px;
+                background: #000;
+                margin: 26px auto;
+                display: block;
+                height: 2px;
+            }
+            .cards-article {
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                transform: rotate(-180deg);
+            }
+            .article {
+                background: #fff;
+                width: 32%;
+                height: 512px;
+                cursor: pointer;
+                margin-bottom: 34px;
+                transition: 0.3s;
+                border-radius: 20px;
+                box-shadow: 2px 3px 20px #E5E5E5;
+            }
+            .article img {
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .article:hover {
+                box-shadow: 3px 3px 12px #4089ED;
+            }
+            .article-h3 {
+                font-size: 21px;
+                font-weight: bold;
+                padding: 24px 66px 12px 33px;
+                line-height: 32px;
+
+            }
+            .article-p {
+                font-size: 16px;
+                color:#7D7987;
+                line-height: 28px;
+                margin-top: 1px;
+                font-weight: 300;
+                padding-left: 33px;
+                padding-bottom: 25px;
+            }
+
+            .background-card {
+                width: 100%;
+                
+                
+                background-repeat: no-repeat;
+                background-position: left -300px;
+                transform: rotate(-180deg);
+            }
+            .article p {
+                font-size: 16px;
+                color:#7D7987;
+                line-height: 28px;
+                margin-top: 1px;
+                font-weight: 300;
+                padding-left: 33px;
+                padding-bottom: 25px; 
+            }
+            .article h3 {
+                font-size: 21px;
+                font-weight: bold;
+                padding: 24px 66px 12px 33px;
+                line-height: 32px;
+            }
+            .article a {
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: 600;
+                color: #4089ED;
+                padding-left: 33px;
+                padding-bottom: 25px;
+                line-height: 28px;
+                
+            }
+            .btn-viewall {
+                font-weight: 700px;
+                background-color: #fff;
+                cursor: pointer;
+                width: 200px;
+                height: 60px;
+                color: #458FF6;
+                font-size: 15px;
+                border-radius: 55px;
+                border: 2px solid #458FF6;
+            }
+
+            /* ....Footer-part.... */
+
+            footer {
+                color: #fff;
+                background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+                margin-top: 372px;
+                height: 432px;
+            }
+
+            .trafalgar {
+                width: 25%;
+            }
+            .about-company-footer {
+                width: 80%;
+                height: 100%;
+                display: flex;
+                margin: auto;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .trafalgar p {
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 28px;
+                padding-top: 22px;
+
+            }
+            .trafalgar h3 {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .company, .region, .help {
+                width: 20%;
+            }
+            .trafalgar h3 span {
+                background: white;
+                color: #458FF6;
+                padding: 0 10px;
+                border-radius: 50%;
+            }
+            .company ul li, .region ul li, .help ul li {
+                list-style: none;
+                line-height: 38px;
+            }
+            .company ul li a, .region ul li a, .help ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                font-weight: 300;
+            }
+
+            .company h3, .region h3, .help h3 {
+                margin-bottom: 22px;
+                font-size: 20px;
+                font-weight: bold;
+            }
